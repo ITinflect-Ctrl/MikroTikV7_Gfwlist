@@ -1,5 +1,4 @@
 name: MikroTikV7_Gfwlist_Scripts
-
 on:
   schedule:
     - cron: "0 0 * * 1"   # 每周一 0 点（UTC时间）
@@ -11,5 +10,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Run a sample script
-        run: echo "This is your weekly scheduled GitHub Actions job!"
+
+      - name: Make gfwlistrosv7.sh executable
+        run: chmod +x ./gfwlistrosv7.sh
+
+      - name: Run gfwlistrosv7.sh
+        run: ./gfwlistrosv7.sh
