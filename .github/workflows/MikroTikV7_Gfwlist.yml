@@ -1,4 +1,4 @@
-name: Scripts
+name: MikroTikV7_Gfwlist_Scripts
 
 on:
   schedule:
