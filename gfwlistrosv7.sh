@@ -27,7 +27,6 @@ elif cat /proc/version | grep -Eqi "centos|red hat|redhat"; then
   release="centos"
   systemPackage="yum"
 fi
-
 if [ ${systemPackage} == "yum" ]; then
     ${sudoCmd} ${systemPackage} install wget -y -q
 else
@@ -39,9 +38,7 @@ if [ ${release} == "centos" ]; then
 else
     nginx_root="/var/www/html"
 fi
-
 wget -O base64.txt https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt > /dev/null 2>&1
-
 gfwlist_domain_filename="./Result/gfwlist7_domain.rsc"
 gfwlist_source_domain_filename="./Result/gfwlist7_domain_source.rsc"
 chmod +x gfwlistdnsmasq.sh && sh ./gfwlistdnsmasq.sh -l -o ${gfwlist_domain_filename}
