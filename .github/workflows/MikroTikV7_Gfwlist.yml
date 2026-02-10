@@ -26,8 +26,8 @@ jobs:
       - name: 下载 gfwlist
         run: wget -O base64.txt https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
 
-      - name: 运行你的gfw.py脚本
-        run: python gfw.py
+      - name: 运行你的MikroTikV7_Gfwlist.py脚本
+        run: python MikroTikV7_Gfwlist.py
 
       - name: 配置git
         run: |
