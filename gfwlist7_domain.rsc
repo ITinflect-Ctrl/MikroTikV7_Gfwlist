@@ -1,4 +1,4 @@
-### --- Created at: 2026-02-10 13:16:41 --- ###
+### --- Created at: 2026-02-10 13:21:03 --- ###
 :log info "Starting to update GFWLIST domain rules..."
 /ip dns static remove [find comment=Gfwlist]
 /ip dns static
