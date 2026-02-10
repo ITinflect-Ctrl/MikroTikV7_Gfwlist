@@ -1,6 +1,6 @@
+:do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=000webhost.com } on-error={}
 /ip dns static/remove [ find comment=Gfwlist ]
 /ip dns static
-:do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=000webhost.com } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=0rz.tw } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=1-apple.com.tw } on-error={}
 :do { add comment=Gfwlist type=FWD forward-to=8.8.8.8 match-subdomain=yes name=1000giri.net } on-error={}
