@@ -487,6 +487,15 @@ add chain=prerouting protocol=tcp layer7-protocol=gfw-domains action=add-dst-to-
 
 ---
 
+## 🔗 相关项目
+
+- [GFWList 官方项目](https://github.com/gfwlist/gfwlist)
+- [MikroTik RouterOS 文档](https://help.mikrotik.com/docs/)
+- [RouterOS DNS 配置指南](https://help.mikrotik.com/docs/display/ROS/DNS)
+- [RouterOS v7 新特性](https://help.mikrotik.com/docs/display/ROS/RouterOS+v7)
+
+---
+
 ## 🤝 贡献与支持
 
 欢迎提交 Issue 和 Pull Request！
@@ -509,15 +518,6 @@ add chain=prerouting protocol=tcp layer7-protocol=gfw-domains action=add-dst-to-
 Copyright (c) 2026 FelixBlaze
 
 > **注意：** 本项目仅供学习和研究使用，请在法律允许的范围内使用。作者不对任何因误用、非法使用或操作不当导致的后果承担法律责任。
-
----
-
-## 🔗 相关项目
-
-- [GFWList 官方项目](https://github.com/gfwlist/gfwlist)
-- [MikroTik RouterOS 文档](https://help.mikrotik.com/docs/)
-- [RouterOS DNS 配置指南](https://help.mikrotik.com/docs/display/ROS/DNS)
-- [RouterOS v7 新特性](https://help.mikrotik.com/docs/display/ROS/RouterOS+v7)
 
 ---
 
