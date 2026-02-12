@@ -507,7 +507,7 @@ add chain=prerouting protocol=tcp layer7-protocol=gfw-domains action=add-dst-to-
 
 **联系方式**：
 - GitHub Issues: [提交问题](https://github.com/CodiFelix/MikroTikV7_Gfwlist/issues)
-- Email: Codifelix@FelixBlaze.com
+- Email: Codifelix@Firegle.com
 
 ---
 
